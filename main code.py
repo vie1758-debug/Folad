@@ -14,7 +14,8 @@ try:
     import streamlit as st
 except ImportError:
     print("⚠️ Note: Run 'pip install pandas numpy streamlit' in your terminal if you want to use the dashboard!")
-
+st.title("My Streamlit App")
+st.button("Click here")
 # AI Tools (Used in Week 2 & 3)
 try:
     import openai
