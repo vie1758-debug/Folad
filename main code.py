@@ -12,6 +12,8 @@ try:
     import pandas as pd
     import numpy as np
     import streamlit as st
+    $ pip install streamlit
+    $ streamlit hello
 except ImportError:
     print("⚠️ Note: Run 'pip install pandas numpy streamlit' in your terminal if you want to use the dashboard!")
 st.title("My Streamlit App")
